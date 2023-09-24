@@ -1,0 +1,10 @@
+/* @theme custom */
+
+@import "default";
+
+section::after {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+  content: 'Page ' attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
