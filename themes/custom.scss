@@ -1,10 +1,9 @@
 /* @theme custom */
 
-@import "default";
+@import "gaia";
 
 section::after {
   font-weight: bold;
-  text-shadow: 1px 1px 0 #fff;
+  text-shadow: 1px 1px 0 #ffffff;
   content: 'Page ' attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
-
